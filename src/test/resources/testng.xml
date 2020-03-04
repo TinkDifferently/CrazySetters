@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1" >
+    <test name="EasyTest" >
+        <parameter name="clientId" value="111111"/>
+        <parameter name="currency" value="RUR"/>
+        <parameter name="accountType" value="OPEN"/>
+        <parameter name="sum" value="250.00"/>
+        <classes>
+            <class name="EasyTest" />
+        </classes>
+    </test>
+</suite>
